@@ -1,0 +1,7 @@
+server:
+  port: 8833
+  ssl:
+    key-alias: springhttps
+    key-store: classpath:springhttps.p12
+    key-store-type: PKCS12
+    key-store-password: springhttps
